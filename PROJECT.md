@@ -201,6 +201,8 @@ For implementation changes, run relevant unit tests, build, and lint via the Gra
 
 ## Continuing with ChatGPT
 
+Source repository: [postbk/HandshakeContactCapture](https://github.com/postbk/HandshakeContactCapture), private, with `main` as the backup branch and `origin` configured locally. Git and GitHub CLI are available in the ignored `.tools/git/cmd` and `.tools/gh/bin` folders on this workstation because the Windows package-manager source was unavailable. Use their full paths or add these folders to the session PATH. Credentials, IDE/build caches, local SDK paths, signing keys, and device data are excluded. This source backup does not include the user's tablet notebook or media; see README.md for backup scope. Future changes require a commit and push to update GitHub.
+
 Share this file and AGENTS.md together with the relevant source files; do not share real API keys or private attendee records. Suggested starting prompt:
 
 > Read AGENTS.md and PROJECT.md. Continue the Kotlin/Compose app from its current photo extraction and company research implementation. Preserve existing records and the user's in-app encrypted-key choice. Use synthetic data for tests, report live-test limitations, and update the status with what works and what remains.
