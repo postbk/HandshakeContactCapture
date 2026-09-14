@@ -1,0 +1,4 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape android:shape="rectangle"><solid android:color="@color/handshake_icon_background" /><corners android:radius="12dp" /></shape></item>
+    <item><bitmap android:src="@drawable/handshake_art" android:gravity="fill" android:filter="true" /></item>
+</layer-list>

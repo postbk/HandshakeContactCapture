@@ -1,0 +1,5 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/handshake_icon_background" />
+    <foreground android:drawable="@drawable/handshake_foreground" />
+    <monochrome android:drawable="@drawable/handshake_foreground" />
+</adaptive-icon>
